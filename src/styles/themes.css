@@ -1,0 +1,37 @@
+:root {
+  --primary: #26d07c;
+  --secondary: #1ea7d8;
+  --accent: #f4a53a;
+  --success: #23c16b;
+  --warning: #f2aa34;
+  --error: #ef5b5b;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+.dark-mode {
+  --bg: #08121b;
+  --bg-alt: #0f1f2c;
+  --card: rgba(20, 36, 50, 0.88);
+  --card-solid: #112433;
+  --border: rgba(130, 170, 204, 0.2);
+  --text: #e8f2fa;
+  --text-muted: #9bb2c5;
+  --shadow: 0 16px 36px rgba(4, 13, 21, 0.4);
+  --page-gradient: radial-gradient(circle at top right, #123851 0%, #0b1d2a 42%, #08121b 100%);
+  color-scheme: dark;
+}
+
+.light-mode {
+  --bg: #edf3f7;
+  --bg-alt: #f7fbff;
+  --card: rgba(255, 255, 255, 0.92);
+  --card-solid: #ffffff;
+  --border: rgba(59, 97, 128, 0.18);
+  --text: #0e2233;
+  --text-muted: #5b7286;
+  --shadow: 0 14px 32px rgba(21, 52, 75, 0.12);
+  --page-gradient: radial-gradient(circle at top right, #d8eaf7 0%, #eaf3fa 40%, #edf3f7 100%);
+  color-scheme: light;
+}
