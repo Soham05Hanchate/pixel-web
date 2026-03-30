@@ -20,7 +20,7 @@ This project provides users with an easy way to explore, view, and reserve turfs
 - HTML5
 - CSS3
 - JavaScript
-- (Add React / Tailwind / etc. if you used them)
+
 
 
 
